@@ -10,7 +10,7 @@ import Navigation from './../components/Navigation'
 class AppRouter extends Component {
   render(){
     return(
-      <BrowserRouter>
+      <BrowserRouter className="edin">
         <Navigation />
         <Switch> 
           <Route path="/" component={Home} exact={true} />

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.navigation {
+  background-color: seagreen;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 100vh;
+  float:left;
+}
+
+.navigation h1 {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color:white;
+}
+
+
+.non-active {
+  font-size: 35px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  color:white;
+  display:block;
+  text-align: left;
+}
+
+.active {
+  background-color: rgba(28, 110, 64, 0.668);
+}
+
+.addTransaction {
+  font-size: 35px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  color:white;
+  display:block;
+  text-align: left;
+  font-weight: 100;
+  
+
+  text-align: center;
+  background-color:#FC7C7B;
+  border-radius: 10px;
+  
+  width: 20%;
+  position: fixed;
+  bottom: 2.5%;
+  left:1%;  
+}
