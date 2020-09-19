@@ -1,2 +1,1 @@
-# Expense-tracker
-Created with CodeSandbox
+# Developed by Haris Hamzic
