@@ -13,6 +13,7 @@ store.dispatch(addTransaction({amount: 49.56, title: 'Cafe Holiday'}));
 store.dispatch(addTransaction({amount: 68.93, title: 'Headphones'}));
 
 
+
 const jsx = (
   <Provider store={store}> 
     <AppRouter />

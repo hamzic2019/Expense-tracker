@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.Search{
+  background-color: rgb(255, 255, 255);
+  width:80%;
+  height: 15vh;
+  float:left;
+  font-family: 'Raleway', sans-serif;
+
+  box-sizing: border-box;
+  display: flex!important;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.searchTerm {
+  height: 35px;
+  width: 500px;
+  padding: 6px;
+  margin:90px;
+  outline: none;
+  border:0px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.150);
+  font-size: 25px;
+  color:rgba(0, 0, 0, 0.650);
+}
+
+.datesRange {
+ background-color: rgba(0, 0, 0, 0.150);
+ width: 308px;
+ height: 47.9px;
+ position: relative;
+ right:-60px;
+}

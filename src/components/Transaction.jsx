@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {removeTransaction} from './../state/actions/transactions'
 import './../styles/Transaction.css'
 import { FaMugHot } from "react-icons/fa";
 import moment from 'moment';
@@ -13,7 +14,13 @@ class Transaction extends Component {
 
         <div className="description-card">
           <h2 className="card-title">{this.props.details.title}</h2>
-          <p className="card-createdAt">{moment(this.props.details.createdAt).format('DD MMM YYYY')} - <span>Remove</span></p>
+          <p 
+            className="card-createdAt">{moment(this.props.details.createdAt).format('DD MMM YYYY')} - <span onClick={(e) => {
+  
+              const id = this.props.details.id
+              this.props.dispatch(removeTransaction({id:id}));
+              
+            }}>Remove</span></p>
         </div>
 
         <div className="price-card">

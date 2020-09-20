@@ -2,7 +2,7 @@ import {v4 as uuid} from 'uuid';
 import moment from 'moment';
 
 //ADD_TRANSACTION
-export const addTransaction = ({amount = 0, startDate = undefined, endDate = undefined, title = '', note = ''} = {})  => ({
+export const addTransaction = ({amount = 0, startDate = undefined, endDate = undefined, title = '', note = '', createdAt = new Date().getTime()} = {})  => ({
   type: 'ADD_TRANSACTION',
   transaction: {
     amount,
@@ -10,7 +10,7 @@ export const addTransaction = ({amount = 0, startDate = undefined, endDate = und
     note,
     startDate,
     endDate,
-    createdAt: moment().valueOf(),
+    createdAt,
     id: uuid()
   }
 });

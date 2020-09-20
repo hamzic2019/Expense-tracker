@@ -6,12 +6,14 @@ import Home from './../components/pages/Home'
 
 // Components
 import Navigation from './../components/Navigation'
+import Search from './../components/Search'
 
 class AppRouter extends Component {
   render(){
     return(
-      <BrowserRouter className="edin">
+      <BrowserRouter>
         <Navigation />
+        <Search />
         <Switch> 
           <Route path="/" component={Home} exact={true} />
         </Switch>
