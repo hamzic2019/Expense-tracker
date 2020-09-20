@@ -20,12 +20,8 @@ class Search extends Component {
 
   handleChange = (e) => {
     this.props.dispatch(setSearchTerm({searchTerm: e.target.value}))
-    console.log(this.state.startDate);
-    console.log(this.state.endDate)
   }
-  handleDateChange = (e) => {
-    console.log('IHHIHI DATES');
-  }
+
 
   render(){
    

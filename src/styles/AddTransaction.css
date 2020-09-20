@@ -1,0 +1,10 @@
+.AddTransaction {
+  background-color: rgb(172, 80, 80);
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  height: 100vh;
+  float:left;
+  overflow: scroll;
+
+}
